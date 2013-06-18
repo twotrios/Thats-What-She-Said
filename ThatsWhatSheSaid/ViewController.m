@@ -24,7 +24,7 @@
                 @"This is really hard!",
                 @"come in from behind",
                 @"Your Going Down",
-                @"was that it?",
+                @"was that it?", @"How Cute, Look How small it is",
                 nil];
     [lblWhatSheSaid setText:[_gotSome objectAtIndex:[self pickARandomNumberFrom:0 To:_gotSome.count]]];
 }
