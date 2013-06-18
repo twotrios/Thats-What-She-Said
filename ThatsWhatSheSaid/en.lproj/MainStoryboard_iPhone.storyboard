@@ -83,6 +83,11 @@
                                     <barButtonItem title="Item" id="rcJ-Vq-PHY"/>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=">:D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRD-af-ET7">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -100,12 +105,14 @@
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="leading" secondItem="JIv-4J-HzR" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="MEn-S7-BFu"/>
                             <constraint firstAttribute="trailing" secondItem="gfj-Fe-OrW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NIU-FO-22i"/>
                             <constraint firstItem="v5L-qI-QZx" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Obr-NB-QwJ"/>
+                            <constraint firstAttribute="trailing" secondItem="hRD-af-ET7" secondAttribute="trailing" constant="93" id="S9f-Ne-7Il"/>
                             <constraint firstItem="v5L-qI-QZx" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="UCI-Mc-skh"/>
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="WQa-JT-RA5"/>
                             <constraint firstItem="JIv-4J-HzR" firstAttribute="top" secondItem="U96-Rn-N57" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Wv6-QB-TDl"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="JIv-4J-HzR" secondAttribute="baseline" type="default" id="cyx-hv-hNa"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="gfj-Fe-OrW" secondAttribute="baseline" type="default" id="d0g-XT-Nts"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="top" secondItem="U96-Rn-N57" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fAq-4A-8OJ"/>
+                            <constraint firstAttribute="bottom" secondItem="hRD-af-ET7" secondAttribute="bottom" constant="219" id="gKC-wo-i51"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="gMd-Jw-ut2"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="bottom" secondItem="exj-uz-BQq" secondAttribute="top" type="default" id="lJl-nw-cj6"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="centerX" secondItem="HjQ-QD-5ka" secondAttribute="centerX" type="default" id="new-1j-Dg8"/>
@@ -116,6 +123,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="commit" destination="hRD-af-ET7" id="cjQ-CK-WCu"/>
                         <outlet property="lblWhatSheSaid" destination="HjQ-QD-5ka" id="6qB-Tx-lF6"/>
                     </connections>
                 </viewController>
@@ -134,6 +142,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="getSome:"/>
+                <relationship kind="outlet" name="commit" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="lblWhatSheSaid" candidateClass="UILabel"/>
             </relationships>
         </class>
