@@ -51,10 +51,10 @@
                                     <action selector="getSome:" destination="2" eventType="touchUpInside" id="u0B-fc-5zj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Face_Palm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Rn-N57">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="thats_what_she_said.png" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Rn-N57">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="ML3-dj-fpQ"/>
-                                    <constraint firstAttribute="width" constant="150" id="ThE-vy-FTg"/>
+                                    <constraint firstAttribute="width" constant="151" id="GUz-53-oAF"/>
+                                    <constraint firstAttribute="height" constant="196" id="fUr-FH-TyY"/>
                                 </constraints>
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5L-qI-QZx">
@@ -93,6 +93,7 @@
                         <constraints>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="bottom" secondItem="NNT-2A-pk0" secondAttribute="top" type="default" id="0m3-X2-q1S"/>
                             <constraint firstAttribute="trailing" secondItem="9hp-M7-fv0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7Dt-1x-Lmo"/>
+                            <constraint firstItem="2cW-2b-pde" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="7GW-mc-PFa"/>
                             <constraint firstItem="bgK-uL-2hv" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="851-Pt-Ub5"/>
                             <constraint firstItem="JIv-4J-HzR" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9Hw-Ow-guW"/>
                             <constraint firstItem="U96-Rn-N57" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="AS5-jQ-eM2"/>
@@ -101,6 +102,8 @@
                             <constraint firstItem="bgK-uL-2hv" firstAttribute="top" secondItem="3" secondAttribute="top" constant="-1" id="CEh-hl-zDI"/>
                             <constraint firstItem="gfj-Fe-OrW" firstAttribute="leading" secondItem="HjQ-QD-5ka" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="EGK-ww-1bd"/>
                             <constraint firstItem="U96-Rn-N57" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="GUF-dj-tZA"/>
+                            <constraint firstItem="pj0-Jg-BAX" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="GX8-sv-FC0"/>
+                            <constraint firstItem="umK-o0-AQI" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="Hsh-FU-t5r"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="IRW-kZ-jH6"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="leading" secondItem="JIv-4J-HzR" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="MEn-S7-BFu"/>
                             <constraint firstAttribute="trailing" secondItem="gfj-Fe-OrW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NIU-FO-22i"/>
@@ -109,13 +112,16 @@
                             <constraint firstItem="v5L-qI-QZx" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="UCI-Mc-skh"/>
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="WQa-JT-RA5"/>
                             <constraint firstItem="JIv-4J-HzR" firstAttribute="top" secondItem="U96-Rn-N57" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Wv6-QB-TDl"/>
+                            <constraint firstItem="umK-o0-AQI" firstAttribute="top" secondItem="3" secondAttribute="top" constant="245" id="Y4l-Vg-DA8"/>
+                            <constraint firstItem="umK-o0-AQI" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="YTe-iC-gHi"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="JIv-4J-HzR" secondAttribute="baseline" type="default" id="cyx-hv-hNa"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="gfj-Fe-OrW" secondAttribute="baseline" type="default" id="d0g-XT-Nts"/>
+                            <constraint firstItem="2cW-2b-pde" firstAttribute="bottom" secondItem="pj0-Jg-BAX" secondAttribute="top" type="default" id="f6L-wt-pNb"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="top" secondItem="U96-Rn-N57" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fAq-4A-8OJ"/>
                             <constraint firstAttribute="bottom" secondItem="hRD-af-ET7" secondAttribute="bottom" constant="219" id="gKC-wo-i51"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="gMd-Jw-ut2"/>
+                            <constraint firstItem="2cW-2b-pde" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="lGy-6X-C3c"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="bottom" secondItem="exj-uz-BQq" secondAttribute="top" type="default" id="lJl-nw-cj6"/>
-                            <constraint firstItem="2c7-4T-IiD" firstAttribute="centerX" secondItem="HjQ-QD-5ka" secondAttribute="centerX" type="default" id="new-1j-Dg8"/>
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="oJc-Aq-DaR"/>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="oTJ-Tj-QOH"/>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="rd5-fk-DfE"/>
@@ -132,7 +138,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Face_Palm.jpg" width="251" height="201"/>
+        <image name="thats_what_she_said.png" width="350" height="453"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
