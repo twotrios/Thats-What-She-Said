@@ -11,5 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *lblWhatSheSaid;
+@property (strong, nonatomic) NSMutableArray *gotSome;
+- (IBAction)getSome:(id)sender;
 
 @end
