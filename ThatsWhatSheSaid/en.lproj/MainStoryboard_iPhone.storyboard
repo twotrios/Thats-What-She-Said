@@ -93,26 +93,26 @@
                             <constraint firstItem="U96-Rn-N57" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="AS5-jQ-eM2"/>
                             <constraint firstItem="v5L-qI-QZx" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="Bmk-b4-gLK"/>
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="bottom" secondItem="v5L-qI-QZx" secondAttribute="top" type="default" id="Bzt-4M-9Bb"/>
+                            <constraint firstItem="bgK-uL-2hv" firstAttribute="top" secondItem="3" secondAttribute="top" constant="-1" id="CEh-hl-zDI"/>
                             <constraint firstItem="gfj-Fe-OrW" firstAttribute="leading" secondItem="HjQ-QD-5ka" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="EGK-ww-1bd"/>
                             <constraint firstItem="U96-Rn-N57" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="GUF-dj-tZA"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="IRW-kZ-jH6"/>
-                            <constraint firstItem="JIv-4J-HzR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="245" id="MAE-x0-GS3"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="leading" secondItem="JIv-4J-HzR" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="MEn-S7-BFu"/>
                             <constraint firstAttribute="trailing" secondItem="gfj-Fe-OrW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NIU-FO-22i"/>
                             <constraint firstItem="v5L-qI-QZx" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Obr-NB-QwJ"/>
                             <constraint firstItem="v5L-qI-QZx" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="UCI-Mc-skh"/>
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="WQa-JT-RA5"/>
+                            <constraint firstItem="JIv-4J-HzR" firstAttribute="top" secondItem="U96-Rn-N57" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Wv6-QB-TDl"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="JIv-4J-HzR" secondAttribute="baseline" type="default" id="cyx-hv-hNa"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="gfj-Fe-OrW" secondAttribute="baseline" type="default" id="d0g-XT-Nts"/>
+                            <constraint firstItem="HjQ-QD-5ka" firstAttribute="top" secondItem="U96-Rn-N57" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fAq-4A-8OJ"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="gMd-Jw-ut2"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="bottom" secondItem="exj-uz-BQq" secondAttribute="top" type="default" id="lJl-nw-cj6"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="centerX" secondItem="HjQ-QD-5ka" secondAttribute="centerX" type="default" id="new-1j-Dg8"/>
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="oJc-Aq-DaR"/>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="oTJ-Tj-QOH"/>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="rd5-fk-DfE"/>
-                            <constraint firstItem="HjQ-QD-5ka" firstAttribute="top" secondItem="JIv-4J-HzR" secondAttribute="top" type="default" id="w0T-fi-DJi"/>
                             <constraint firstItem="9hp-M7-fv0" firstAttribute="top" secondItem="HjQ-QD-5ka" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wsT-b9-IxI"/>
-                            <constraint firstItem="bgK-uL-2hv" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="zjb-Js-ULE"/>
                         </constraints>
                     </view>
                     <connections>
