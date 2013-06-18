@@ -2,8 +2,8 @@
 //  ViewController.h
 //  ThatsWhatSheSaid
 //
-//  Created by Unbounded Solutions on 6/18/13.
-//  Copyright (c) 2013 Unbounded Solutions. All rights reserved.
+//  Created by Two Trios on 6/18/13.
+//  Copyright (c) 2013 Not Unbounded Solutions. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
