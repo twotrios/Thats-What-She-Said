@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -54,7 +54,7 @@
                                     <action selector="getSome:" destination="2" eventType="touchUpInside" id="u0B-fc-5zj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Face_Palm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Rn-N57">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="thats_what_she_said.png" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Rn-N57">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="121" id="0lP-xJ-FrQ"/>
                                     <constraint firstAttribute="width" constant="151" id="GUz-53-oAF"/>
@@ -115,7 +115,7 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="bottom" secondItem="NNT-2A-pk0" secondAttribute="top" type="default" id="0m3-X2-q1S"/>
-                            <constraint firstItem="gfj-Fe-OrW" firstAttribute="baseline" secondItem="JIv-4J-HzR" secondAttribute="baseline" type="default" id="4eW-gI-1WJ"/>
+                            <constraint firstItem="HjQ-QD-5ka" firstAttribute="top" secondItem="U96-Rn-N57" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2fd-aR-bwq"/>
                             <constraint firstAttribute="trailing" secondItem="9hp-M7-fv0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7Dt-1x-Lmo"/>
                             <constraint firstItem="2cW-2b-pde" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="7GW-mc-PFa"/>
                             <constraint firstItem="bgK-uL-2hv" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="851-Pt-Ub5"/>
@@ -139,7 +139,6 @@
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="WQa-JT-RA5"/>
                             <constraint firstItem="umK-o0-AQI" firstAttribute="top" secondItem="3" secondAttribute="top" constant="245" id="Y4l-Vg-DA8"/>
                             <constraint firstItem="umK-o0-AQI" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="YTe-iC-gHi"/>
-                            <constraint firstItem="HjQ-QD-5ka" firstAttribute="top" secondItem="3" secondAttribute="top" constant="188" id="csB-eP-twe"/>
                             <constraint firstItem="2cW-2b-pde" firstAttribute="bottom" secondItem="pj0-Jg-BAX" secondAttribute="top" type="default" id="f6L-wt-pNb"/>
                             <constraint firstItem="pj0-Jg-BAX" firstAttribute="bottom" secondItem="2c7-4T-IiD" secondAttribute="top" type="default" id="gMa-u5-50g"/>
                             <constraint firstItem="2c7-4T-IiD" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="gMd-Jw-ut2"/>
@@ -148,6 +147,7 @@
                             <constraint firstItem="NNT-2A-pk0" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="oJc-Aq-DaR"/>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="oTJ-Tj-QOH"/>
                             <constraint firstItem="exj-uz-BQq" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="rd5-fk-DfE"/>
+                            <constraint firstItem="9hp-M7-fv0" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="wnB-eW-3bE"/>
                             <constraint firstItem="9hp-M7-fv0" firstAttribute="top" secondItem="gfj-Fe-OrW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yoY-tm-oj6"/>
                         </constraints>
                     </view>
@@ -160,7 +160,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Face_Palm.jpg" width="251" height="201"/>
+        <image name="thats_what_she_said.png" width="350" height="453"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
