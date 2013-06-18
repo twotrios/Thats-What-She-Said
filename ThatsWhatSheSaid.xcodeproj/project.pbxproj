@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E08C00D17710D4D003E3D97 /* thats_what_she_said.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E08C00C17710D4D003E3D97 /* thats_what_she_said.png */; };
 		0E93A5BA1770FC0D000493BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E93A5B91770FC0D000493BB /* UIKit.framework */; };
 		0E93A5BC1770FC0D000493BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E93A5BB1770FC0D000493BB /* Foundation.framework */; };
 		0E93A5BE1770FC0D000493BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E93A5BD1770FC0D000493BB /* CoreGraphics.framework */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E08C00C17710D4D003E3D97 /* thats_what_she_said.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thats_what_she_said.png; path = ../../../../../Images/thats_what_she_said.png; sourceTree = "<group>"; };
 		0E93A5B51770FC0D000493BB /* ThatsWhatSheSaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThatsWhatSheSaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E93A5B91770FC0D000493BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0E93A5BB1770FC0D000493BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,7 +98,6 @@
 		0E93A5C01770FC0D000493BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E08C00C17710D4D003E3D97 /* thats_what_she_said.png */,
 				764246FF17710A7300561F97 /* Face_Palm.jpg */,
 				0E93A5C11770FC0D000493BB /* ThatsWhatSheSaid-Info.plist */,
 				0E93A5C21770FC0D000493BB /* InfoPlist.strings */,
@@ -170,7 +167,6 @@
 				0E93A5D01770FC0D000493BB /* Default-568h@2x.png in Resources */,
 				0E93A5D31770FC0D000493BB /* MainStoryboard_iPhone.storyboard in Resources */,
 				7642470017710A7300561F97 /* Face_Palm.jpg in Resources */,
-				0E08C00D17710D4D003E3D97 /* thats_what_she_said.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
