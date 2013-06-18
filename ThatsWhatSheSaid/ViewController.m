@@ -22,7 +22,10 @@
     _gotSome = [[NSMutableArray alloc] initWithObjects: //add more here
                 @"its getting harder",
                 @"This is really hard!",
-                @"come in from behind", @"Your Going Down", nil];
+                @"come in from behind",
+                @"Your Going Down",
+                @"was that it?",
+                nil];
     [lblWhatSheSaid setText:[_gotSome objectAtIndex:[self pickARandomNumberFrom:0 To:_gotSome.count]]];
 }
 
