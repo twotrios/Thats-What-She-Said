@@ -51,10 +51,10 @@
                                     <action selector="getSome:" destination="2" eventType="touchUpInside" id="u0B-fc-5zj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Face_Palm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Rn-N57">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="thats_what_she_said.png" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Rn-N57">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="ML3-dj-fpQ"/>
-                                    <constraint firstAttribute="width" constant="150" id="ThE-vy-FTg"/>
+                                    <constraint firstAttribute="width" constant="151" id="GUz-53-oAF"/>
+                                    <constraint firstAttribute="height" constant="196" id="fUr-FH-TyY"/>
                                 </constraints>
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5L-qI-QZx">
@@ -158,7 +158,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Face_Palm.jpg" width="251" height="201"/>
+        <image name="thats_what_she_said.png" width="350" height="453"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
