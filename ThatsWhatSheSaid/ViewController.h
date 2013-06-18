@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+//it is all mess i will delete 
 @property (weak, nonatomic) IBOutlet UILabel *lblWhatSheSaid;
 @property (strong, nonatomic) NSMutableArray *gotSome;
 - (IBAction)getSome:(id)sender;
