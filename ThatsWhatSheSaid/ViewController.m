@@ -22,7 +22,7 @@
     _gotSome = [[NSMutableArray alloc] initWithObjects: //add more here
                 @"its getting harder",
                 @"This is really hard!",
-                @"come in from behind", nil];
+                @"come in from behind", @"your going down" nil];
 }
 
 - (void)didReceiveMemoryWarning
