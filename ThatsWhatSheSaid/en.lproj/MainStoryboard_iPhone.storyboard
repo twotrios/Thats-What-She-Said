@@ -51,11 +51,16 @@
                                     <action selector="getSome:" destination="2" eventType="touchUpInside" id="u0B-fc-5zj"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Face_Palm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Rn-N57">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="ML3-dj-fpQ"/>
+                                    <constraint firstAttribute="width" constant="150" id="ThE-vy-FTg"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bgK-uL-2hv" firstAttribute="centerX" secondItem="HjQ-QD-5ka" secondAttribute="centerX" type="default" id="4Ja-Xq-QGE"/>
-                            <constraint firstItem="bgK-uL-2hv" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="7BI-BA-07z"/>
                             <constraint firstAttribute="trailing" secondItem="9hp-M7-fv0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7Dt-1x-Lmo"/>
                             <constraint firstItem="JIv-4J-HzR" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9Hw-Ow-guW"/>
                             <constraint firstItem="gfj-Fe-OrW" firstAttribute="leading" secondItem="HjQ-QD-5ka" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="EGK-ww-1bd"/>
@@ -63,10 +68,13 @@
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="leading" secondItem="JIv-4J-HzR" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="MEn-S7-BFu"/>
                             <constraint firstAttribute="trailing" secondItem="gfj-Fe-OrW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NIU-FO-22i"/>
                             <constraint firstAttribute="bottom" secondItem="bgK-uL-2hv" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="R31-oy-b3R"/>
+                            <constraint firstItem="U96-Rn-N57" firstAttribute="top" secondItem="3" secondAttribute="top" constant="53" id="awk-3G-iJd"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="JIv-4J-HzR" secondAttribute="baseline" type="default" id="cyx-hv-hNa"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="baseline" secondItem="gfj-Fe-OrW" secondAttribute="baseline" type="default" id="d0g-XT-Nts"/>
+                            <constraint firstItem="HjQ-QD-5ka" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="jYP-5X-gCV"/>
                             <constraint firstItem="HjQ-QD-5ka" firstAttribute="top" secondItem="JIv-4J-HzR" secondAttribute="top" type="default" id="w0T-fi-DJi"/>
                             <constraint firstItem="9hp-M7-fv0" firstAttribute="top" secondItem="HjQ-QD-5ka" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wsT-b9-IxI"/>
+                            <constraint firstItem="U96-Rn-N57" firstAttribute="leading" secondItem="bgK-uL-2hv" secondAttribute="leading" type="default" id="zi5-AN-Cgh"/>
                         </constraints>
                     </view>
                     <connections>
@@ -77,6 +85,9 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Face_Palm.jpg" width="251" height="201"/>
+    </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
