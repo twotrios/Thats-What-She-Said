@@ -22,7 +22,8 @@
     _gotSome = [[NSMutableArray alloc] initWithObjects: //add more here
                 @"its getting harder",
                 @"This is really hard!",
-                @"come in from behind", @"your going down" nil];
+                @"come in from behind", @"Your Going Down", nil];
+    [lblWhatSheSaid setText:[_gotSome objectAtIndex:[self pickARandomNumberFrom:0 To:_gotSome.count]]];
 }
 
 - (void)didReceiveMemoryWarning
